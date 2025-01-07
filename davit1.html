@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/internet.ico">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #0d1b2a, #1b263b, #415a77); /* Темный фон с градиентом */
+            color: white;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        a {
+            color: #00d8ff;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        h1 {
+            margin-top: 60px; /* Чтобы отступить от гирлянды */
+            font-size: 36px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .snowflake {
+            position: absolute;
+            color: white;
+            font-size: 15px;
+            opacity: 0.8;
+            pointer-events: none;
+            animation: fadeOut 2s ease-out forwards;
+        }
+
+        .falling-snowflake {
+            position: absolute;
+            color: white;
+            font-size: 10px;
+            opacity: 0.8;
+            pointer-events: none;
+            animation: fall 5s linear infinite;
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+        }
+
+        @keyframes fall {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nginx Server</h1>
+    <a href="https://t.me/r34_43yz0l" target="_blank">Author</a>
+    <a href="//10.20.20.153:1990" target="_blank">Go To WordPress Page</a>
+    <a href="test.html">Go to Test Page</a>
+    <a href="//10.20.20.153:500" target="_blank">Go To Django Page</a>
+    <a href="https://www.network.am/" target="_blank">
+        <img src="https://www.network.am/images/nk/Networkam7.gif" width="468" height="60" border="0" alt="www.Network.am - Download Portal">
+    </a>
+
+</body>
+</html>
